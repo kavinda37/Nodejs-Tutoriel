@@ -1,0 +1,21 @@
+//crreate package json
+npm init
+
+//start app
+node <app file name>
+
+//install modules
+npm install <module>
+	# --save will add the modules to package json
+	# -g install globally
+
+//useful packages
+express
+body-parser
+ejs //template engine
+express-validator //form validation engine
+mongojs //mongo db handler
+
+
+//helpers
+nodemon //auto restart server when change
